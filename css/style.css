@@ -1,0 +1,313 @@
+/*=======FONTS=========*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway:500');
+
+
+
+
+
+/*=====UNIVERSALS=====*/
+
+body{
+    margin: 0px;
+}
+
+
+body html{
+    box-sizing: border-box;
+    margin:none;
+}
+
+.pull-left{
+    float: left;
+}
+
+.pull-right{
+    float: right;
+}
+
+
+.inline {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5em;
+}
+
+.lobster{
+    font-family: 'Lobster', cursive;
+    
+}
+.lato{
+    font-family: 'Lato', sans-serif;
+}
+
+.zeromargins{
+    margin: 0px;
+}
+
+/*======HEADER SECTION======*/
+header {
+    height: 120px;
+    background-color: white;
+    padding: 0px 16px;
+    font-family: 'Lato', sans-serif;
+}
+header a{
+    color: #AA1E00;
+}
+
+h1, h2 {
+    color:#fff;
+}
+
+
+.logo-img{
+    height: 90px;
+    margin-top: 10px;
+    margin-left: 0px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+body header a .logo-img:hover {
+    background-color: #F5C840;
+}
+
+.nav-tab.active {
+    border-radius: 5px;
+    background-color: #AA1E00;
+    padding: 15px;
+
+}
+
+.active {
+    color: white;
+
+}
+
+.nav-tab{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #E0E8FF;
+}
+
+.nav-tab:hover {
+    background-color: #F5C840;
+
+    
+}
+
+ .nav-tab:hover a {
+     color: black;
+ }
+
+
+
+
+/*=========MAIN SECTION======*/
+
+
+
+#heromain {
+    background-image: url('../img/clbcall5.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    clear: both;
+}
+
+.title-style{
+    margin: 0;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 30%;
+    position: absolute;
+}
+
+
+#call-to-action{
+    width: 300px;
+    height: 60px;
+    float: right;
+    text-align: center;
+    background-color: rgba(224,232,255,0.8);
+    margin-right: 75px;
+    margin-top: 125px;
+    border-radius: 10px;
+}
+
+#call-to-action:hover {
+    background-color: #F5C840;
+
+    
+}
+
+#call-to-action:hover p {
+     color: black;
+ }
+
+.call-text{
+    color: #AA1E00;
+    line-height: 1px;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*=========ASIDE SECTION======*/
+
+#aside-title{
+    font-size: 25px;
+}
+
+.white-text{
+    color: #fff;
+}
+
+.centered {
+    text-align: center;
+}
+
+aside{
+    width: 30%;
+    background-color: #0F2736;
+    height: 300px;
+    float: left;
+}
+
+
+
+.blog-link:hover{
+    background-color:#F5C840;
+}
+
+.blog-link.active:hover {
+    background-color: #F5C840;
+}
+
+
+
+.blog-link.active {
+    border-radius: 5px;
+    background-color: #AA1E00;
+    padding: 20px;
+
+}
+
+
+
+.blog-link:hover {
+     color: black;
+ }
+
+.blog-link{
+    margin-bottom: 5px 0px;
+    padding: 20px 0px;
+    background-color:#0F2736;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+#blog-links{
+    padding-left: 0;
+    
+}
+
+aside ul a li {
+    color: #fff;
+}
+
+/*=========MAIN SECTION======*/
+
+
+
+#main-heading{
+    font-size: 50px;
+    color: black;
+    display: block;
+    font-family: 'Lobster', cursive;
+    border: 0px;
+    margin: 0px;
+}
+
+#main-subheading{
+    font-size: 30px;
+    color: black;
+    display: block;
+    font-family: 'Lato', sans-serif;
+}
+
+#main-paragraph{
+   text-align: justify; 
+}
+
+
+main{
+    float: right;
+    width: 65%;
+    height:300px;
+    overflow: auto;
+    padding: 0px 25px 0px 0px;
+    
+}
+
+/*===========FOOOTER SECTION=======*/
+
+#footer{
+  height: 55px;
+  background-color: #8AA1BD;
+  padding: 0px 10px 0px 10px;
+  position: relative;
+  clear: both;
+  padding: 8px 0px;
+}
+
+#copy-slns{
+  text-align: right;
+  font-size: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0px 15px;
+  color: black;
+  
+
+
+}
+#social{
+  float: center;
+  font-size: 30px;
+  padding: 3px 0px
+}
+
+
+.fa{
+    margin: 8px;
+}
+
+footer #social-media a {
+    color: #000;
+}
+
+footer #social-media a:hover {
+    color: #F5C840;
+}
+
+
+.black-text{
+    color: black;
+} 

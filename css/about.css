@@ -1,0 +1,27 @@
+#about-heading{
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    line-height:0px;
+    -webkit-margin-before: 10px;
+    
+}
+
+main{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.column{
+    float: left;
+    width: 33.333%;
+    height: 400px;
+    background-color: #245E82;
+    text-align: center;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+footer{
+   margin-top: 20px; 
+}
+

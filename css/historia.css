@@ -1,0 +1,7 @@
+#herohistoria {
+    background-image: url('../img/historia.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    clear: both;
+}

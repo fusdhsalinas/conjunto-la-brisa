@@ -1,0 +1,7 @@
+#heroeventos {
+    background-image: url('../img/eventos.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    clear: both;
+}

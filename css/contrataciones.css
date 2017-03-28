@@ -1,0 +1,22 @@
+#herocontrataciones {
+    background-image: url('../img/contrataciones.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    clear: both;
+}
+
+#phone
+{
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+.marginbtmzero{
+    margin-bottom: 0px;
+}
+
+.contratacionestext{
+    font-size: 25px;
+    text-align: left;
+}
